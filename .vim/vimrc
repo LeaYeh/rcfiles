@@ -64,3 +64,7 @@ set cursorline
 nnoremap <silent> <F5> :NERDTree<CR>
 
 let g:todo_comment_color = 'Yellow'
+
+" put a blue line on column 100
+set cc=100
+hi ColorColumn ctermbg=Blue
