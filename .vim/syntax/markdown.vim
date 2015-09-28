@@ -1,0 +1,1 @@
+highlight Title ctermfg=blue
