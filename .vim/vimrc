@@ -22,6 +22,7 @@ Bundle 'pi314/pi314.rst.vim'
 Bundle 'pi314/todo-or-not-todo.vim'
 Bundle 'dhruvasagar/vim-table-mode'
 Bundle 'suan/vim-instant-markdown'
+Bundle 'davidhalter/jedi-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
