@@ -84,4 +84,5 @@ call todo#add#checkbox('[i]', 'LightYellow', 0)
 call todo#add#checkbox('[?]', 'LightYellow', 0)
 call todo#add#checkbox('[!]', 'LightRed', 0)
 
-
+" customize jedi-vim plugin
+let g:jedi#show_call_signatures = "0"
