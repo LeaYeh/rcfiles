@@ -53,7 +53,10 @@ set shiftwidth=2
 set listchars=tab:>-
 set list
 
-"set autoindent
+" customized color
+colorscheme yehya
+
+" set autoindent
 set smarttab
 
 set hlsearch
