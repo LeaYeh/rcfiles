@@ -24,6 +24,7 @@ Bundle 'dhruvasagar/vim-table-mode'
 Bundle 'suan/vim-instant-markdown'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'zdict/zdict.vim'
+Bundle 'bling/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -94,3 +95,10 @@ autocmd BufReadPost *
     \   exe "normal! g`\"" |
     \ endif
 
+" set status line
+set laststatus=2
+" enable powerline-fonts
+let g:airline_powerline_fonts = 1
+let g:airline_theme='wombat'
+
+" luna
